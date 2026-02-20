@@ -20,7 +20,7 @@
   - Device name
   - Friendly name
 
-- Consoles -> Console
+- Tools -> Console
   - SwitchMode 1
   - SetOption114 1
 
