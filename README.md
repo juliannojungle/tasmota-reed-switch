@@ -7,7 +7,8 @@
     - Tasmota (english)
 
 - Configuration -> Configure module
-  - GPIO0: Switch - 1;
+  - GPIO0: Switch - 1; (with pull-up, for gnd switching)
+  - GPIO0: Switch_d - 1; (with pull-down, for 3v3 switching)
 
 - Configuration -> Configure matter
   - Matter enable;
@@ -21,7 +22,9 @@
   - Friendly name
 
 - Tools -> Console
-  - SwitchMode 1
+  - SwitchMode<x> 1 (normal)
+  - SwitchMode<x> 2 (inverted)
+    - ex.: SwitchMode1 1
   - SetOption114 1
 
 - Show temperature
