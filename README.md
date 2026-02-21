@@ -25,7 +25,7 @@
   - SwitchMode<x> 1 (normal)
   - SwitchMode<x> 2 (inverted)
     - ex.: SwitchMode1 1
-  - SetOption114 1
-
-- Show temperature
-  - SetOption146 1
+  - SetOption114 1 (detach switch from relay and just send mqtt)
+  - SetOption146 1 (show temperature)
+  - Restart 1 (save and restart)
+  - Restart 99 (discard and restart)
